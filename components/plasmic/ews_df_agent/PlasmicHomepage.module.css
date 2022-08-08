@@ -4,6 +4,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+  background: var(--token-G_Cicozef);
   min-width: 0;
   min-height: 0;
   padding: 0px;
@@ -176,6 +177,7 @@
 .img__joEyK {
   object-fit: cover;
   width: 96px;
+  border-radius: 200px;
 }
 .img__joEyK > picture > img {
   object-fit: cover;
@@ -834,7 +836,9 @@
   height: 380px;
   margin-bottom: 23px;
   margin-top: 0px;
+  box-shadow: 0px 4px 54px 10px #0b072d;
   flex-shrink: 0;
+  border-radius: 20px;
   border: 0px solid #171e31;
 }
 .img__ti0M > picture > img {
@@ -885,14 +889,15 @@
   align-items: center;
   justify-content: center;
   width: 1083px;
-  height: 73px;
+  height: 97px;
   max-width: 100%;
   left: auto;
   top: auto;
   bottom: auto;
   background: var(--token-o8tZkmelmCm_s8);
-  margin-top: 17px;
+  margin-top: 3px;
   flex-shrink: 0;
+  border-radius: 20px;
   padding: 0px 0px 0px 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -926,6 +931,7 @@
   margin-bottom: 4px;
   width: 250px;
   height: 82px;
+  margin-top: 10px;
   flex-shrink: 0;
 }
 .img__navji > picture > img {
@@ -1017,7 +1023,9 @@
   max-width: 100%;
   width: 851px;
   height: 391px;
+  box-shadow: 0px 4px 54px 10px #000000f2;
   flex-shrink: 0;
+  border-radius: 20px;
 }
 .img__zuWa2 > picture > img {
   object-fit: cover;
@@ -1750,6 +1758,10 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   box-shadow: 0px 4px 54px 10px #000000, 0px 4px 16px 0px #00000033;
+  transition-property: all;
+  transition-duration: 1s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
 }
 .image1 > picture > img {
   object-fit: cover;
@@ -1822,6 +1834,7 @@
   margin-top: calc(0px + 10px) !important;
   padding-top: 0px;
   color: var(--token-G_Cicozef);
+  text-align: center;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h3__dnekl {
@@ -1921,6 +1934,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0px 4px 54px 10px #000000, 0px 4px 16px 0px #00000033;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
 }
 .img__lz6Jb > picture > img {
   object-fit: cover;
@@ -1969,6 +1986,8 @@
   background: var(--token-o8tZkmelmCm_s8);
   width: 456px;
   height: 105px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   flex-shrink: 0;
   padding: 30px 15px 0px;
   border-bottom: 5px solid var(--token-6VsBE_Pg4GKt7J);
@@ -2001,6 +2020,7 @@
 .h3__xhy1L {
   margin-top: calc(0px + 10px) !important;
   color: var(--token-G_Cicozef);
+  text-align: center;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .h3__xhy1L {
@@ -2109,7 +2129,7 @@
 .registration:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  height: 74px;
+  height: 58px;
   width: 270px;
   flex-shrink: 0;
 }
@@ -2129,7 +2149,7 @@
   height: 1em;
 }
 .text__pfXPo {
-  font-size: 30px;
+  font-size: 20px;
   color: var(--token-Zt99Hl5OR);
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -2167,6 +2187,8 @@
   object-fit: cover;
   max-width: 100%;
   height: 287px;
+  box-shadow: 0px 4px 54px 10px #000000;
+  border-radius: 20px;
 }
 .img___2AppP > picture > img {
   object-fit: cover;
@@ -2190,7 +2212,8 @@
   width: 1200px;
   height: auto;
   max-width: 100%;
-  background: #eeeeee;
+  background: linear-gradient(var(--token-G_Cicozef), var(--token-G_Cicozef)),
+    #eeeeee;
   padding: 0px;
 }
 .freeBox__wnkbk {
@@ -2198,7 +2221,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 1200px;
+  width: 1152px;
   background: var(--token-G_Cicozef);
   height: 489px;
   justify-content: flex-start;
@@ -2311,6 +2334,7 @@
   margin-top: 49px;
   background: var(--token-o8tZkmelmCm_s8);
   min-width: 0;
+  border-radius: 20px;
   padding: 32px 20px 20px;
   border-bottom: 6px solid var(--token-6VsBE_Pg4GKt7J);
 }
@@ -2503,14 +2527,16 @@
   position: relative;
   top: auto;
   left: auto;
-  width: 100%;
-  min-width: 0;
+  width: 375px;
+  padding-right: 0px;
+  padding-top: 0px;
+  height: 90px;
+  flex-shrink: 0;
 }
 .freeBox__g3Kt > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -2540,6 +2566,7 @@
   object-fit: cover;
   width: 66px;
   position: relative;
+  border-radius: 200px;
 }
 .img___4UYaA > picture > img {
   object-fit: cover;
@@ -3055,6 +3082,7 @@
   left: auto;
   top: auto;
   padding-top: 0px;
+  padding-left: 0px;
   min-width: 0;
 }
 .freeBox__h1J5W > :global(.__wab_flex-container) {

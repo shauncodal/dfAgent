@@ -1106,7 +1106,7 @@ function PlasmicHomepage__RenderFunc(props) {
                                 "mobileOnly"
                               )
                                 ? "Customers can connect with you anytine, anywhere."
-                                : "Customers can connect with you anytine, anywhere."}
+                                : "Customers can connect with you anytime, anywhere."}
                             </h3>
 
                             {true ? (
