@@ -47,7 +47,7 @@
   height: auto;
   align-self: center;
   margin-bottom: -17px;
-  padding: 1px 14px 0px 32px;
+  padding: 10px 32px;
   border: 10px solid var(--token-G_Cicozef);
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -621,7 +621,7 @@
   width: 100%;
   height: auto;
   max-width: 800px;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   min-width: 0;
 }
@@ -710,6 +710,7 @@
   text-align: center;
   margin-top: calc(29px + 32px) !important;
   height: 160px;
+  font-size: 40px;
   flex-shrink: 0;
   padding: 0px;
 }
@@ -806,9 +807,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 1300px;
-  height: 836px;
+  width: 80.35%;
+  height: 646px;
   max-width: 100%;
+  margin-top: 33px;
   flex-shrink: 0;
   padding: 8px 8px 48px;
 }
@@ -826,9 +828,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 500px;
-  height: 772px;
-  margin-bottom: 0px;
+  width: 366px;
+  height: 590px;
+  margin-bottom: 23px;
+  margin-top: 0px;
   flex-shrink: 0;
   border: 0px solid #171e31;
 }
@@ -849,16 +852,17 @@
 }
 .text__l7KL3 {
   position: relative;
-  width: 872px;
-  height: 752px;
+  width: 605px;
+  height: 555px;
   max-width: 800px;
-  margin-left: 34px;
+  margin-left: 85px;
   text-align: center;
   font-size: 20px;
   color: var(--token-o8tZkmelmCm_s8);
   padding-top: 0px;
   padding-right: 16px;
-  margin-top: 5px;
+  margin-top: 4px;
+  margin-bottom: 0px;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -878,7 +882,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1378px;
+  width: 853px;
   height: 103px;
   max-width: 100%;
   left: auto;
@@ -976,6 +980,7 @@
   height: auto;
   max-width: 800px;
   text-align: center;
+  font-size: 50px;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -1737,6 +1742,9 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px 4px 54px 10px #000000, 0px 4px 16px 0px #00000033;
 }
 .img___4FkH8 > picture > img {
   object-fit: cover;
@@ -1772,6 +1780,8 @@
   background: var(--token-o8tZkmelmCm_s8);
   width: 456px;
   height: 105px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   flex-shrink: 0;
   padding: 30px 15px 0px;
   border-bottom: 5px solid var(--token-6VsBE_Pg4GKt7J);
