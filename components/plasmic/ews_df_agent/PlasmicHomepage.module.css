@@ -1549,7 +1549,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox___7WEz6 {
+    height: 1088px;
     margin-top: calc(0px + 0px) !important;
+    flex-shrink: 0;
   }
 }
 .freeBox__yq {
@@ -2094,7 +2096,7 @@
   position: relative;
   color: var(--token-o8tZkmelmCm_s8);
   font-size: 20px;
-  height: 538px;
+  height: 584px;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -2110,7 +2112,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 1200px;
-  height: 335px;
+  height: 297px;
   max-width: 100%;
   background: var(--token-G_Cicozef);
   flex-shrink: 0;
@@ -2132,7 +2134,7 @@
   width: 800px;
   height: 158px;
   max-width: 800px;
-  margin-top: 41px;
+  margin-top: 33px;
   font-size: 20px;
   color: var(--token-o8tZkmelmCm_s8);
   text-align: center;
