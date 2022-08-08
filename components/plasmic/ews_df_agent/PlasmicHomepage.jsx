@@ -561,7 +561,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayHeight={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "238px"
-                    : "590px"
+                    : "499px"
                 }
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -1039,8 +1039,10 @@ function PlasmicHomepage__RenderFunc(props) {
                             )}
                           >
                             <p.PlasmicImg
+                              data-plasmic-name={"image1"}
+                              data-plasmic-override={overrides.image1}
                               alt={""}
-                              className={classNames(sty.img___4FkH8)}
+                              className={classNames(sty.image1)}
                               displayHeight={
                                 hasVariant(
                                   globalVariants,
@@ -1352,7 +1354,7 @@ function PlasmicHomepage__RenderFunc(props) {
               displayHeight={
                 hasVariant(globalVariants, "screen", "mobileOnly")
                   ? "133px"
-                  : "530px"
+                  : "287px"
               }
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -1989,6 +1991,7 @@ const PlasmicDescendants = {
     "span",
     "foreground",
     "foreground3",
+    "image1",
     "registration"
   ],
 
@@ -1996,7 +1999,8 @@ const PlasmicDescendants = {
   h6: ["h6"],
   span: ["span"],
   foreground: ["foreground"],
-  foreground3: ["foreground3"],
+  foreground3: ["foreground3", "image1"],
+  image1: ["image1"],
   registration: ["registration"]
 };
 
@@ -2039,6 +2043,7 @@ export const PlasmicHomepage = Object.assign(
     span: makeNodeComponent("span"),
     foreground: makeNodeComponent("foreground"),
     foreground3: makeNodeComponent("foreground3"),
+    image1: makeNodeComponent("image1"),
     registration: makeNodeComponent("registration"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
