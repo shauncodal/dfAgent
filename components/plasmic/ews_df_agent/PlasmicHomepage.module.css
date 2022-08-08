@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  width: 1152px;
+  width: 1200px;
   align-content: unset;
   background: linear-gradient(var(--token-G_Cicozef), var(--token-G_Cicozef)),
     #000000a1;
@@ -1038,7 +1038,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1152px;
+  width: 1200px;
   height: auto;
   max-width: 100%;
   background: linear-gradient(var(--token-G_Cicozef), var(--token-G_Cicozef)),
@@ -1527,7 +1527,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  width: 1152px;
+  width: 1200px;
   height: 512px;
   max-width: 100%;
   background: var(--token-G_Cicozef);
@@ -2065,7 +2065,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 1152px;
+  width: 1200px;
   height: 335px;
   max-width: 100%;
   background: var(--token-G_Cicozef);
@@ -2149,7 +2149,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1152px;
+  width: 1200px;
   height: 422px;
   max-width: 100%;
   background: var(--token-G_Cicozef);
@@ -2187,7 +2187,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  width: 1152px;
+  width: 1200px;
   height: auto;
   max-width: 100%;
   background: #eeeeee;
@@ -2198,7 +2198,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 1152px;
+  width: 1200px;
   background: var(--token-G_Cicozef);
   height: 489px;
   justify-content: flex-start;
@@ -2413,7 +2413,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  width: 1152px;
+  width: 1200px;
   height: auto;
   max-width: 100%;
   background: #eeeeee;
@@ -2424,11 +2424,11 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 1152px;
+  width: 1200px;
   background: var(--token-G_Cicozef);
   margin-top: 0px;
   flex-shrink: 0;
-  padding: 85px 64px 71px;
+  padding: 85px 30px 71px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__xIgXw {
