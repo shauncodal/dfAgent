@@ -1345,7 +1345,7 @@ function PlasmicHomepage__RenderFunc(props) {
 
                 <React.Fragment>
                   {
-                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media\r\n\r\n \r\n\r\n"
+                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media.\r\n\r\n \r\n\r\n"
                   }
                 </React.Fragment>
 
