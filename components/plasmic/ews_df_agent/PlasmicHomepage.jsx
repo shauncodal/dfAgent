@@ -561,7 +561,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayHeight={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "238px"
-                    : "499px"
+                    : "380px"
                 }
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -570,7 +570,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayWidth={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "202px"
-                    : "366px"
+                    : "286px"
                 }
                 loading={"lazy"}
                 src={{
@@ -589,7 +589,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 )}
               >
                 {
-                  "Hi , I'm Elmarie Watson-Smith, and I have a great passion for helping small businesses expand their digital footprint. At DigitalFlyer SA, community is at the heart of everything we do.  We've created an online business marketplace where each business member can create a Web page, e-commerce store, online bookings, events and ticket sales at an affordable price. \nWe've made our platform simple to use for any type of business, no technical skills required. Not only do we want your customers to find you easily, but we'll show you how to manage your own profile. So whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
+                  "Hi , I'm Elmarie Watson-Smith, and I have a great passion for helping small businesses expand their digital footprint. At DigitalFlyer SA, community is at the heart of everything we do.  We've created an online business marketplace where each business member can create a Web page, e-commerce store, online bookings, events and ticket sales at an affordable price. \n\nWe've made our platform simple to use for any type of business, no technical skills required. Not only do we want your customers to find you easily, but we'll show you how to manage your own profile. So whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
                 }
               </div>
             </div>
@@ -608,8 +608,8 @@ function PlasmicHomepage__RenderFunc(props) {
                   className={classNames(sty.img__navji)}
                   displayHeight={
                     hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "84px"
-                      : "87px"
+                      ? "82px"
+                      : "82px"
                   }
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
