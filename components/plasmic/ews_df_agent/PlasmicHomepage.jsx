@@ -1345,7 +1345,7 @@ function PlasmicHomepage__RenderFunc(props) {
 
                 <React.Fragment>
                   {
-                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media.\r\n\r\n \r\n\r\n"
+                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media.\r\n\r\r\n\r\n"
                   }
                 </React.Fragment>
 
@@ -1358,7 +1358,7 @@ function PlasmicHomepage__RenderFunc(props) {
 
                 <React.Fragment>
                   {
-                    "\r\n\r\nOur seamless integration into Netcash eCommerce Gateway allows for easy payment with multiple payment options.\r\n\r\n \r\n\r\n"
+                    "\r\n\r\nOur seamless integration into Netcash eCommerce Gateway allows for easy payment with multiple payment options.\r\n\r\n\r\n\r\n"
                   }
                 </React.Fragment>
 
@@ -1371,7 +1371,7 @@ function PlasmicHomepage__RenderFunc(props) {
 
                 <React.Fragment>
                   {
-                    "\r\n\r\nMarketing and sales tools or services can be very expensive. The cost per year is only R1,199.00, no other fees, even when you sell products, services or event tickets through our platform.\r\n\r\n \r\n\r\n"
+                    "\r\n\r\nMarketing and sales tools or services can be very expensive. The cost per year is only R1,199.00, no other fees, even when you sell products, services or event tickets through our platform.\r\n \r"
                   }
                 </React.Fragment>
 
@@ -1384,7 +1384,7 @@ function PlasmicHomepage__RenderFunc(props) {
 
                 <React.Fragment>
                   {
-                    "\r\n\r\nBusiness webpage, eCommerce, appointment bookings and events modules, all on- one platform.\r\n\r\n \r\n\r\n"
+                    "\r\n\r\nBusiness webpage, eCommerce, appointment bookings and events modules, all on- one platform. \r\n\r\n"
                   }
                 </React.Fragment>
 
