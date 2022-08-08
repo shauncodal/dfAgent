@@ -452,72 +452,74 @@ function PlasmicHomepage__RenderFunc(props) {
                 </div>
               ) : null}
 
-              <h1
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h1,
-                  projectcss.__wab_text,
-                  sty.h1__eSSc4
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                  <React.Fragment>
+              {true ? (
+                <h1
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h1,
+                    projectcss.__wab_text,
+                    sty.h1__eSSc4
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly") ? (
                     <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "       We help your business grow : Visibility and Accessability\n\n"
+                        }
+                      </React.Fragment>
+
                       {
-                        "       We help your business grow : Visibility and Accessability\n\n"
+                        <span
+                          data-plasmic-name={"span"}
+                          data-plasmic-override={overrides.span}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.span,
+                            projectcss.__wab_text,
+                            projectcss.plasmic_default__inline,
+                            sty.span
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? ""
+                            : ""}
+                        </span>
                       }
+
+                      <React.Fragment>{""}</React.Fragment>
                     </React.Fragment>
-
-                    {
-                      <span
-                        data-plasmic-name={"span"}
-                        data-plasmic-override={overrides.span}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.span,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.span
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ""
-                          : ""}
-                      </span>
-                    }
-
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                ) : (
-                  <React.Fragment>
+                  ) : (
                     <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "       We help your business grow : Visibility and Accessability\n\n"
+                        }
+                      </React.Fragment>
+
                       {
-                        "       We help your business grow : Visibility and Accessability\n\n"
+                        <span
+                          data-plasmic-name={"span"}
+                          data-plasmic-override={overrides.span}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.span,
+                            projectcss.__wab_text,
+                            projectcss.plasmic_default__inline,
+                            sty.span
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? ""
+                            : ""}
+                        </span>
                       }
+
+                      <React.Fragment>{""}</React.Fragment>
                     </React.Fragment>
-
-                    {
-                      <span
-                        data-plasmic-name={"span"}
-                        data-plasmic-override={overrides.span}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.span,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.span
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ""
-                          : ""}
-                      </span>
-                    }
-
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                )}
-              </h1>
+                  )}
+                </h1>
+              ) : null}
 
               {true ? (
                 <p.Stack
@@ -712,9 +714,16 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.h2__d1JrW
                       )}
                     >
-                      {
-                        "We give you the tools so your customers can find you anywhere!"
-                      }
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"How can DigitalFlyer help your business?"}
+                        </span>
+                      </React.Fragment>
                     </h2>
                   ) : null}
 
@@ -974,54 +983,50 @@ function PlasmicHomepage__RenderFunc(props) {
           ) : null}
 
           <div className={classNames(projectcss.all, sty.freeBox___7WEz6)}>
-            <div className={classNames(projectcss.all, sty.freeBox__yq)}>
-              <div className={classNames(projectcss.all, sty.freeBox__yf5RP)}>
-                {true ? (
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jVPgn
-                    )}
-                  >
-                    {"Downloads"}
-                  </div>
-                ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__yq)}>
+                <div className={classNames(projectcss.all, sty.freeBox__yf5RP)}>
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jVPgn
+                      )}
+                    >
+                      {"Downloads"}
+                    </div>
+                  ) : null}
 
-                {true ? (
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2___2HQ5W
-                    )}
-                  >
-                    {""}
-                  </h2>
-                ) : null}
+                  {true ? (
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2___2HQ5W
+                      )}
+                    >
+                      {""}
+                    </h2>
+                  ) : null}
 
-                <section
-                  className={classNames(projectcss.all, sty.section__ybSvU)}
-                >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"foreground3"}
-                    data-plasmic-override={overrides.foreground3}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.foreground3)}
+                  <section
+                    className={classNames(projectcss.all, sty.section__ybSvU)}
                   >
                     <p.Stack
                       as={"div"}
+                      data-plasmic-name={"foreground3"}
+                      data-plasmic-override={overrides.foreground3}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__wD98L)}
+                      className={classNames(projectcss.all, sty.foreground3)}
                     >
                       <p.Stack
                         as={"div"}
                         hasGap={true}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__jB3Ym
+                          sty.freeBox__wD98L
                         )}
                       >
                         <p.Stack
@@ -1029,191 +1034,254 @@ function PlasmicHomepage__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__gveTs
+                            sty.freeBox__jB3Ym
                           )}
                         >
-                          <div
+                          <p.Stack
+                            as={"div"}
+                            hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__uZn0Z
+                              sty.freeBox__gveTs
                             )}
                           >
-                            <p.PlasmicImg
-                              data-plasmic-name={"image1"}
-                              data-plasmic-override={overrides.image1}
-                              alt={""}
-                              className={classNames(sty.image1)}
-                              displayHeight={
-                                hasVariant(
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__uZn0Z
+                              )}
+                            >
+                              <p.PlasmicImg
+                                data-plasmic-name={"image1"}
+                                data-plasmic-override={overrides.image1}
+                                alt={""}
+                                className={classNames(sty.image1)}
+                                displayHeight={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? "207px"
+                                    : "304px"
+                                }
+                                displayMaxHeight={"none"}
+                                displayMaxWidth={"100%"}
+                                displayMinHeight={"0"}
+                                displayMinWidth={"0"}
+                                displayWidth={"456px"}
+                                loading={"lazy"}
+                                src={{
+                                  src: "/plasmic/ews_df_agent/images/adobeStock278515907Jpeg.jpeg",
+                                  fullWidth: 6000,
+                                  fullHeight: 4000,
+                                  aspectRatio: undefined
+                                }}
+                              />
+                            </div>
+
+                            {false ? (
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___6LkmL
+                                )}
+                              >
+                                <Icon8Icon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___0ZDgN
+                                  )}
+                                  role={"img"}
+                                />
+                              </div>
+                            ) : null}
+
+                            <p.Stack
+                              as={"div"}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__xtsnG
+                              )}
+                            >
+                              <h3
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h3,
+                                  projectcss.__wab_text,
+                                  sty.h3__dnekl
+                                )}
+                              >
+                                {hasVariant(
                                   globalVariants,
                                   "screen",
                                   "mobileOnly"
                                 )
-                                  ? "207px"
-                                  : "auto"
-                              }
-                              displayMaxHeight={"none"}
-                              displayMaxWidth={"100%"}
-                              displayMinHeight={"0"}
-                              displayMinWidth={"0"}
-                              displayWidth={"auto"}
-                              loading={"lazy"}
-                              src={{
-                                src: "/plasmic/ews_df_agent/images/adobeStock278515907Jpeg.jpeg",
-                                fullWidth: 6000,
-                                fullHeight: 4000,
-                                aspectRatio: undefined
-                              }}
-                            />
-                          </div>
+                                  ? "Customers can connect with you anytine, anywhere."
+                                  : "Customers can connect with you anytime, anywhere."}
+                              </h3>
 
-                          {false ? (
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox___6LkmL
-                              )}
-                            >
-                              <Icon8Icon
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.svg___0ZDgN
-                                )}
-                                role={"img"}
-                              />
-                            </div>
-                          ) : null}
+                              {true ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___71C3
+                                  )}
+                                >
+                                  {
+                                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
+                                  }
+                                </div>
+                              ) : null}
+
+                              {true ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__xEzmk
+                                  )}
+                                >
+                                  {true ? (
+                                    <Button
+                                      className={classNames(
+                                        "__wab_instance",
+                                        sty.button__usM8F
+                                      )}
+                                      color={"softYellow"}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__iSqVx
+                                        )}
+                                      >
+                                        {"Read More"}
+                                      </div>
+                                    </Button>
+                                  ) : null}
+                                </div>
+                              ) : null}
+                            </p.Stack>
+                          </p.Stack>
 
                           <p.Stack
                             as={"div"}
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__xtsnG
+                              sty.freeBox___3FCt
                             )}
                           >
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__dnekl
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobileOnly"
-                              )
-                                ? "Customers can connect with you anytine, anywhere."
-                                : "Customers can connect with you anytime, anywhere."}
-                            </h3>
-
-                            {true ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___71C3
-                                )}
-                              >
-                                {
-                                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
-                                }
-                              </div>
-                            ) : null}
-
-                            {true ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__xEzmk
-                                )}
-                              >
-                                {true ? (
-                                  <Button
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.button__usM8F
-                                    )}
-                                    color={"softYellow"}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__iSqVx
-                                      )}
-                                    >
-                                      {"Read More"}
-                                    </div>
-                                  </Button>
-                                ) : null}
-                              </div>
-                            ) : null}
-                          </p.Stack>
-                        </p.Stack>
-
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox___3FCt
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__lXjc
-                            )}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__lz6Jb)}
-                              displayHeight={
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "207px"
-                                  : "auto"
-                              }
-                              displayMaxHeight={"none"}
-                              displayMaxWidth={"100%"}
-                              displayMinHeight={"0"}
-                              displayMinWidth={"0"}
-                              displayWidth={
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "311px"
-                                  : "auto"
-                              }
-                              loading={"lazy"}
-                              src={{
-                                src: "/plasmic/ews_df_agent/images/adobeStock430974460Jpeg.jpeg",
-                                fullWidth: 5973,
-                                fullHeight: 3982,
-                                aspectRatio: undefined
-                              }}
-                            />
-                          </div>
-
-                          {(
-                            hasVariant(globalVariants, "screen", "mobileOnly")
-                              ? true
-                              : false
-                          ) ? (
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__aolpY
+                                sty.freeBox__lXjc
                               )}
                             >
+                              <p.PlasmicImg
+                                alt={""}
+                                className={classNames(sty.img__lz6Jb)}
+                                displayHeight={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? "207px"
+                                    : "304px"
+                                }
+                                displayMaxHeight={"none"}
+                                displayMaxWidth={"100%"}
+                                displayMinHeight={"0"}
+                                displayMinWidth={"0"}
+                                displayWidth={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? "311px"
+                                    : "456px"
+                                }
+                                loading={"lazy"}
+                                src={{
+                                  src: "/plasmic/ews_df_agent/images/adobeStock430974460Jpeg.jpeg",
+                                  fullWidth: 5973,
+                                  fullHeight: 3982,
+                                  aspectRatio: undefined
+                                }}
+                              />
+                            </div>
+
+                            {(
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? true
+                                : false
+                            ) ? (
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__aolpY
+                                )}
+                              >
+                                {(
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? true
+                                    : true
+                                ) ? (
+                                  <Icon8Icon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg__gkMvn
+                                    )}
+                                    role={"img"}
+                                  />
+                                ) : null}
+                              </div>
+                            ) : null}
+
+                            <p.Stack
+                              as={"div"}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__wYuvG
+                              )}
+                            >
+                              <h3
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h3,
+                                  projectcss.__wab_text,
+                                  sty.h3__xhy1L
+                                )}
+                              >
+                                {
+                                  "Social media integrated,  expanding your customer reach."
+                                }
+                              </h3>
+
+                              {true ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___8HyUk
+                                  )}
+                                >
+                                  {
+                                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
+                                  }
+                                </div>
+                              ) : null}
+
                               {(
                                 hasVariant(
                                   globalVariants,
@@ -1223,92 +1291,129 @@ function PlasmicHomepage__RenderFunc(props) {
                                   ? true
                                   : true
                               ) ? (
-                                <Icon8Icon
+                                <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__gkMvn
+                                    sty.freeBox__ymxCc
                                   )}
-                                  role={"img"}
-                                />
-                              ) : null}
-                            </div>
-                          ) : null}
-
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__wYuvG
-                            )}
-                          >
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__xhy1L
-                              )}
-                            >
-                              {
-                                "Social media integrated,  expanding your customer reach."
-                              }
-                            </h3>
-
-                            {true ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___8HyUk
-                                )}
-                              >
-                                {
-                                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
-                                }
-                              </div>
-                            ) : null}
-
-                            {(
-                              hasVariant(globalVariants, "screen", "mobileOnly")
-                                ? true
-                                : true
-                            ) ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__ymxCc
-                                )}
-                              >
-                                {true ? (
-                                  <Button
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.button__hxaUn
-                                    )}
-                                    color={"softYellow"}
-                                  >
-                                    <div
+                                >
+                                  {true ? (
+                                    <Button
                                       className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__zFuI
+                                        "__wab_instance",
+                                        sty.button__hxaUn
                                       )}
+                                      color={"softYellow"}
                                     >
-                                      {"Read More"}
-                                    </div>
-                                  </Button>
-                                ) : null}
-                              </div>
-                            ) : null}
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__zFuI
+                                        )}
+                                      >
+                                        {"Read More"}
+                                      </div>
+                                    </Button>
+                                  ) : null}
+                                </div>
+                              ) : null}
+                            </p.Stack>
                           </p.Stack>
                         </p.Stack>
                       </p.Stack>
                     </p.Stack>
-                  </p.Stack>
-                </section>
+                  </section>
+                </div>
               </div>
+            ) : null}
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__g2TT
+              )}
+            >
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Saves time"}
+                </span>
+
+                <React.Fragment>
+                  {
+                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media\r\n\r\n \r\n\r\n"
+                  }
+                </React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Slick payment solution"}
+                </span>
+
+                <React.Fragment>
+                  {
+                    "\r\n\r\nOur seamless integration into Netcash eCommerce Gateway allows for easy payment with multiple payment options.\r\n\r\n \r\n\r\n"
+                  }
+                </React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Saves money"}
+                </span>
+
+                <React.Fragment>
+                  {
+                    "\r\n\r\nMarketing and sales tools or services can be very expensive. The cost per year is only R1,199.00, no other fees, even when you sell products, services or event tickets through our platform.\r\n\r\n \r\n\r\n"
+                  }
+                </React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Additional functionality"}
+                </span>
+
+                <React.Fragment>
+                  {
+                    "\r\n\r\nBusiness webpage, eCommerce, appointment bookings and events modules, all on- one platform.\r\n\r\n \r\n\r\n"
+                  }
+                </React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Easy to use"}
+                </span>
+
+                <React.Fragment>
+                  {
+                    "\r\n\r\nFor business owners and customers, an easy to use web and mobile platform. Integrated solutions to make selling and buying quick and easy. We offer a unique platform for businesses, bridging the gap between buyers and sellers anywhere in the world."
+                  }
+                </React.Fragment>
+              </React.Fragment>
             </div>
+
+            {true ? (
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__zZm2R
+                )}
+              >
+                {"time\r"}
+              </div>
+            ) : null}
           </div>
 
           <div className={classNames(projectcss.all, sty.freeBox__loefm)}>
