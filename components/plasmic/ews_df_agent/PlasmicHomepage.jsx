@@ -26,10 +26,6 @@ import projectcss from "./plasmic_ews_df_agent.module.css"; // plasmic-import: q
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: td9OePBYoqPzf/css
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: mD-s-BkpV1Hz4W/icon
 import ArrowDownsvgIcon from "./icons/PlasmicIcon__ArrowDownsvg"; // plasmic-import: 1Pa4Ev-YC_hjWU/icon
-import Icon21Icon from "./icons/PlasmicIcon__Icon21"; // plasmic-import: g0I1hW7-iOH9pa/icon
-import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: 8EwjdRHA4u-2d1/icon
-import Icon18Icon from "./icons/PlasmicIcon__Icon18"; // plasmic-import: 7WjCsdpiHPKOPj/icon
-import Icon22Icon from "./icons/PlasmicIcon__Icon22"; // plasmic-import: jP26yiFFfdoltj/icon
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: 8H7Obl_C1pM6fH/icon
 import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: XVjBOBVCUhg4ke/icon
 import Icon28Icon from "./icons/PlasmicIcon__Icon28"; // plasmic-import: 1UkUhHahktsq_i/icon
@@ -109,58 +105,6 @@ function PlasmicHomepage__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(projectcss.all, sty.freeBox__ftMlP)}
                     >
-                      {true ? (
-                        <p.Stack
-                          as={p.PlasmicLink}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            sty.link__ujci0
-                          )}
-                          component={Link}
-                          platform={"nextjs"}
-                        >
-                          {true ? (
-                            <IconIcon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__pmkOh
-                              )}
-                              role={"img"}
-                            />
-                          ) : null}
-
-                          {true ? (
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___5T3Wn
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobileOnly"
-                              )
-                                ? "Services"
-                                : "ABOUT"}
-                            </div>
-                          ) : null}
-
-                          {false ? (
-                            <IconIcon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg___1L08V
-                              )}
-                              role={"img"}
-                            />
-                          ) : null}
-                        </p.Stack>
-                      ) : null}
-
                       {true ? (
                         <p.Stack
                           as={p.PlasmicLink}
@@ -344,11 +288,13 @@ function PlasmicHomepage__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__jLmP)}
                   >
                     <button
+                      data-plasmic-name={"button"}
+                      data-plasmic-override={overrides.button}
                       className={classNames(
                         projectcss.all,
                         projectcss.button,
                         projectcss.__wab_text,
-                        sty.button__uoStj
+                        sty.button
                       )}
                     >
                       {"Sign up"}
@@ -563,7 +509,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayHeight={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "238px"
-                    : "340px"
+                    : "448px"
                 }
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -572,7 +518,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayWidth={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "202px"
-                    : "286px"
+                    : "278px"
                 }
                 loading={"lazy"}
                 src={{
@@ -591,7 +537,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 )}
               >
                 {
-                  "Hi , I'm Elmarie Watson-Smith, and I have a great passion for helping small businesses expand their digital footprint. At DigitalFlyer SA, community is at the heart of everything we do.  We've created an online business marketplace where each business member can create a Web page, e-commerce store, online bookings, events and ticket sales at an affordable price. \n\nWe've made our platform simple to use for any type of business, no technical skills required. Not only do we want your customers to find you easily, but we'll show you how to manage your own profile. So whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
+                  "Hi , I'm Elmarie Watson-Smith\n \nAll start-up’s, side-hussle’s and even more established businesses face the same problems in this new online era. Customers want to find your business easily and if they can’t get a response quickly, they will move on to the next business. As a new business the cost of having a website and the monthly maintenance, can be a very costly affair. Even if you already have a website, to drive traffic to your website is becoming more of a challenge. \n\nDigitalFlyer came up with a simple and cost effective solution. With your DigitalFlyer membership you can create your own web page (business profile) by simply filling in a form. We will guide you through the process of adding products, create events, sell tickets or book appointments. The exciting part is that you will never pay any extra fees apart from your yearly membership and no more waiting for web developers to edit anything on your page. You are fully in control and can edit anything that changes on your profile very quickly\n. \nSo whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
                 }
               </div>
             </div>
@@ -680,654 +626,62 @@ function PlasmicHomepage__RenderFunc(props) {
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox__svPZr)}>
               <div className={classNames(projectcss.all, sty.freeBox___8GMIr)}>
-                <div className={classNames(projectcss.all, sty.freeBox__rpmyU)}>
-                  {true ? (
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__b5GbW
-                      )}
-                    >
-                      {"ABOUT"}
-                    </div>
-                  ) : null}
-
-                  {true ? (
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__cjB52
-                      )}
-                    >
-                      {"ABOUT"}
-                    </div>
-                  ) : null}
-
-                  {true ? (
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2__d1JrW
-                      )}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ fontWeight: 700 }}
-                        >
-                          {"How can DigitalFlyer help your business?"}
-                        </span>
-                      </React.Fragment>
-                    </h2>
-                  ) : null}
-
-                  {true ? (
-                    <section
-                      className={classNames(projectcss.all, sty.section__xTrpr)}
-                    >
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"foreground"}
-                        data-plasmic-override={overrides.foreground}
-                        hasGap={true}
-                        className={classNames(projectcss.all, sty.foreground)}
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__rpmyU)}
+                  >
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__b5GbW
+                        )}
                       >
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox___448th
-                          )}
-                        >
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__kdeRn
-                            )}
+                        {"ABOUT"}
+                      </div>
+                    ) : null}
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__cjB52
+                        )}
+                      >
+                        {"ABOUT"}
+                      </div>
+                    ) : null}
+
+                    {true ? (
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2__d1JrW
+                        )}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ fontWeight: 700 }}
                           >
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__lc1C0
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__msye8
-                                )}
-                              >
-                                <Icon21Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__bbV2F
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__h7Jq3
-                                  )}
-                                >
-                                  <Icon8Icon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__glV3A
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-
-                              <p.Stack
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___4PkbB
-                                )}
-                              >
-                                <h3
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.h3,
-                                    projectcss.__wab_text,
-                                    sty.h3__yxtwZ
-                                  )}
-                                >
-                                  {"ABOUT"}
-                                </h3>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__eNqv1
-                                  )}
-                                >
-                                  {
-                                    "Nulla odio mauris enim parturient adipiscing vestibulum inceptos."
-                                  }
-                                </div>
-                              </p.Stack>
-                            </p.Stack>
-
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__gCWpw
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__wnH4
-                                )}
-                              >
-                                <Icon18Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__iBgf4
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__q8KP
-                                  )}
-                                >
-                                  <Icon8Icon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__vopDz
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-
-                              <p.Stack
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___8Jb4M
-                                )}
-                              >
-                                <h3
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.h3,
-                                    projectcss.__wab_text,
-                                    sty.h3__anauM
-                                  )}
-                                >
-                                  {"PRODUCT"}
-                                </h3>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__hUnO9
-                                  )}
-                                >
-                                  {
-                                    "Consequat scelerisque a eros taciti nisl a sodales."
-                                  }
-                                </div>
-                              </p.Stack>
-                            </p.Stack>
-
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox___8T4OL
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___5Zbii
-                                )}
-                              >
-                                <Icon22Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__lp2C
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__b0V5L
-                                  )}
-                                >
-                                  <Icon8Icon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__aiaut
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-
-                              <p.Stack
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__ieSvr
-                                )}
-                              >
-                                <h3
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.h3,
-                                    projectcss.__wab_text,
-                                    sty.h3___6Zj9
-                                  )}
-                                >
-                                  {"DIGITAL"}
-                                </h3>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__d5Wb
-                                  )}
-                                >
-                                  {
-                                    "Varius ad malesuada ullamcorper cursus scelerisque a a."
-                                  }
-                                </div>
-                              </p.Stack>
-                            </p.Stack>
-                          </p.Stack>
-                        </p.Stack>
-                      </p.Stack>
-                    </section>
-                  ) : null}
-                </div>
+                            {"How can DigitalFlyer help your business?"}
+                          </span>
+                        </React.Fragment>
+                      </h2>
+                    ) : null}
+                  </div>
+                ) : null}
               </div>
             </div>
           ) : null}
 
           <div className={classNames(projectcss.all, sty.freeBox___7WEz6)}>
-            {true ? (
-              <div className={classNames(projectcss.all, sty.freeBox__yq)}>
-                <div className={classNames(projectcss.all, sty.freeBox__yf5RP)}>
-                  {true ? (
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__jVPgn
-                      )}
-                    >
-                      {"Downloads"}
-                    </div>
-                  ) : null}
-
-                  {true ? (
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2___2HQ5W
-                      )}
-                    >
-                      {""}
-                    </h2>
-                  ) : null}
-
-                  <section
-                    className={classNames(projectcss.all, sty.section__ybSvU)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"foreground3"}
-                      data-plasmic-override={overrides.foreground3}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.foreground3)}
-                    >
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__wD98L
-                        )}
-                      >
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__jB3Ym
-                          )}
-                        >
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__gveTs
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__uZn0Z
-                              )}
-                            >
-                              <p.PlasmicImg
-                                data-plasmic-name={"image1"}
-                                data-plasmic-override={overrides.image1}
-                                alt={""}
-                                className={classNames(sty.image1)}
-                                displayHeight={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? "207px"
-                                    : "304px"
-                                }
-                                displayMaxHeight={"none"}
-                                displayMaxWidth={"100%"}
-                                displayMinHeight={"0"}
-                                displayMinWidth={"0"}
-                                displayWidth={"456px"}
-                                loading={"lazy"}
-                                src={{
-                                  src: "/plasmic/ews_df_agent/images/adobeStock278515907Jpeg.jpeg",
-                                  fullWidth: 6000,
-                                  fullHeight: 4000,
-                                  aspectRatio: undefined
-                                }}
-                              />
-                            </div>
-
-                            {false ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___6LkmL
-                                )}
-                              >
-                                <Icon8Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg___0ZDgN
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                            ) : null}
-
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__xtsnG
-                              )}
-                            >
-                              <h3
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.h3,
-                                  projectcss.__wab_text,
-                                  sty.h3__dnekl
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? "Customers can connect with you anytine, anywhere."
-                                  : "Customers can connect with you anytime, anywhere."}
-                              </h3>
-
-                              {true ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___71C3
-                                  )}
-                                >
-                                  {
-                                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
-                                  }
-                                </div>
-                              ) : null}
-
-                              {true ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__xEzmk
-                                  )}
-                                >
-                                  {true ? (
-                                    <Button
-                                      className={classNames(
-                                        "__wab_instance",
-                                        sty.button__usM8F
-                                      )}
-                                      color={"softYellow"}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__iSqVx
-                                        )}
-                                      >
-                                        {"Read More"}
-                                      </div>
-                                    </Button>
-                                  ) : null}
-                                </div>
-                              ) : null}
-                            </p.Stack>
-                          </p.Stack>
-
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox___3FCt
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__lXjc
-                              )}
-                            >
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__lz6Jb)}
-                                displayHeight={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? "207px"
-                                    : "304px"
-                                }
-                                displayMaxHeight={"none"}
-                                displayMaxWidth={"100%"}
-                                displayMinHeight={"0"}
-                                displayMinWidth={"0"}
-                                displayWidth={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? "311px"
-                                    : "456px"
-                                }
-                                loading={"lazy"}
-                                src={{
-                                  src: "/plasmic/ews_df_agent/images/adobeStock430974460Jpeg.jpeg",
-                                  fullWidth: 5973,
-                                  fullHeight: 3982,
-                                  aspectRatio: undefined
-                                }}
-                              />
-                            </div>
-
-                            {(
-                              hasVariant(globalVariants, "screen", "mobileOnly")
-                                ? true
-                                : false
-                            ) ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__aolpY
-                                )}
-                              >
-                                {(
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? true
-                                    : true
-                                ) ? (
-                                  <Icon8Icon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__gkMvn
-                                    )}
-                                    role={"img"}
-                                  />
-                                ) : null}
-                              </div>
-                            ) : null}
-
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__wYuvG
-                              )}
-                            >
-                              <h3
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.h3,
-                                  projectcss.__wab_text,
-                                  sty.h3__xhy1L
-                                )}
-                              >
-                                {
-                                  "Social media integrated,  expanding your customer reach."
-                                }
-                              </h3>
-
-                              {true ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___8HyUk
-                                  )}
-                                >
-                                  {
-                                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
-                                  }
-                                </div>
-                              ) : null}
-
-                              {(
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? true
-                                  : true
-                              ) ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__ymxCc
-                                  )}
-                                >
-                                  {true ? (
-                                    <Button
-                                      className={classNames(
-                                        "__wab_instance",
-                                        sty.button__hxaUn
-                                      )}
-                                      color={"softYellow"}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__zFuI
-                                        )}
-                                      >
-                                        {"Read More"}
-                                      </div>
-                                    </Button>
-                                  ) : null}
-                                </div>
-                              ) : null}
-                            </p.Stack>
-                          </p.Stack>
-                        </p.Stack>
-                      </p.Stack>
-                    </p.Stack>
-                  </section>
-                </div>
-              </div>
-            ) : null}
-
             <div
               className={classNames(
                 projectcss.all,
@@ -1340,14 +694,21 @@ function PlasmicHomepage__RenderFunc(props) {
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ fontWeight: 700 }}
                 >
-                  {"Saves time"}
+                  {"Saves Time"}
                 </span>
 
-                <React.Fragment>
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
                   {
-                    "\r\n\r\nYou don’t need to be a marketing guru to promote and sell your products, goods and services. We will show you how to use your unique business url to market your business or products on social media\n\n\r\r\n\r\n"
+                    "You don't have to be a marketing guru to promote and sell your goods, services or products. We will show you how to use your unique business url to create posts on social media."
                   }
-                </React.Fragment>
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
 
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -1356,11 +717,18 @@ function PlasmicHomepage__RenderFunc(props) {
                   {"Slick payment solution"}
                 </span>
 
-                <React.Fragment>
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
                   {
-                    "\r\n\r\nOur seamless integration into Netcash eCommerce Gateway allows for easy payment with multiple payment options.\n\r\n\r\n\r\n\r\n\n"
+                    "Our seamless integration into Netcash eCommerce gatewat allows for easu payment with multiple payment options."
                   }
-                </React.Fragment>
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
 
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -1369,24 +737,38 @@ function PlasmicHomepage__RenderFunc(props) {
                   {"Saves money"}
                 </span>
 
-                <React.Fragment>
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
                   {
-                    "\r\n\r\nMarketing and sales tools or services can be very expensive. The cost per year is only R1,199.00, no other fees, even when you sell products, services or event tickets through our platform.\r\n \r\n"
+                    "Marketing and sales tools or services can be very expensive. A business membership is only R1199.00 per year, no other fees even when you sell products, services or tickets through our platform."
                   }
-                </React.Fragment>
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
 
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ fontWeight: 700 }}
                 >
-                  {"Additional functionality"}
+                  {"Additional Functionality"}
                 </span>
 
-                <React.Fragment>
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
                   {
-                    "\r\n\r\nBusiness webpage, eCommerce, appointment bookings and events modules, all on- one platform. \n\n\r\n\r\n"
+                    "Business webpage, eCommerce, appointment bookings and events module, all on one platform."
                   }
-                </React.Fragment>
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
 
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -1395,28 +777,52 @@ function PlasmicHomepage__RenderFunc(props) {
                   {"Easy to use"}
                 </span>
 
-                <React.Fragment>
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
                   {
-                    "\r\n\r\nFor business owners and customers, an easy to use web and mobile platform. Integrated solutions to make selling and buying quick and easy. We offer a unique platform for businesses, bridging the gap between buyers and sellers anywhere in the world."
+                    "For business owners and customers an easy to use web and mobile platform. Integrated solutions to make selling and buying quick and easy. "
                   }
-                </React.Fragment>
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 300 }}
+                >
+                  {""}
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {""}
+                </span>
+
+                <React.Fragment>{"\n"}</React.Fragment>
+
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {""}
+                </span>
               </React.Fragment>
             </div>
-
-            {true ? (
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__zZm2R
-                )}
-              >
-                {"time\r"}
-              </div>
-            ) : null}
           </div>
 
-          <div className={classNames(projectcss.all, sty.freeBox__loefm)}>
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__loefm)}
+          >
             <div
               className={classNames(
                 projectcss.all,
@@ -1450,7 +856,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 {"Register"}
               </div>
             </Button>
-          </div>
+          </p.Stack>
 
           <div className={classNames(projectcss.all, sty.freeBox__gmWom)}>
             <p.PlasmicImg
@@ -2089,23 +1495,11 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "foreground2",
-    "h6",
-    "span",
-    "foreground",
-    "foreground3",
-    "image1",
-    "registration"
-  ],
-
+  root: ["root", "button", "foreground2", "h6", "span", "registration"],
+  button: ["button"],
   foreground2: ["foreground2", "h6", "span"],
   h6: ["h6"],
   span: ["span"],
-  foreground: ["foreground"],
-  foreground3: ["foreground3", "image1"],
-  image1: ["image1"],
   registration: ["registration"]
 };
 
@@ -2143,12 +1537,10 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    button: makeNodeComponent("button"),
     foreground2: makeNodeComponent("foreground2"),
     h6: makeNodeComponent("h6"),
     span: makeNodeComponent("span"),
-    foreground: makeNodeComponent("foreground"),
-    foreground3: makeNodeComponent("foreground3"),
-    image1: makeNodeComponent("image1"),
     registration: makeNodeComponent("registration"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
