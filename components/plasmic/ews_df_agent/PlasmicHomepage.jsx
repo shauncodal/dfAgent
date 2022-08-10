@@ -509,7 +509,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayHeight={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "238px"
-                    : "448px"
+                    : "490px"
                 }
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -518,7 +518,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 displayWidth={
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? "202px"
-                    : "278px"
+                    : "317px"
                 }
                 loading={"lazy"}
                 src={{
@@ -537,7 +537,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 )}
               >
                 {
-                  "Hi , I'm Elmarie Watson-Smith\n \nAll start-up’s, side-hussle’s and even more established businesses face the same problems in this new online era. Customers want to find your business easily and if they can’t get a response quickly, they will move on to the next business. As a new business the cost of having a website and the monthly maintenance, can be a very costly affair. Even if you already have a website, to drive traffic to your website is becoming more of a challenge. \n\nDigitalFlyer came up with a simple and cost effective solution. With your DigitalFlyer membership you can create your own web page (business profile) by simply filling in a form. We will guide you through the process of adding products, create events, sell tickets or book appointments. The exciting part is that you will never pay any extra fees apart from your yearly membership and no more waiting for web developers to edit anything on your page. You are fully in control and can edit anything that changes on your profile very quickly\n. \nSo whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
+                  "Hi , I'm Elmarie Watson-Smith\n \nAll start-up’s, side-hussle’s and even more established businesses face the same problems in this new online era. Customers want to find your business easily and if they can’t get a response quickly, they will move on to a competitor. As a new business the cost of having a website and the monthly maintenance, can be very costly. Even if you already have a website, driving traffic to your website is becoming more of a challenge. \n\nDigitalFlyer came up with a simple and cost effective solution. With your DigitalFlyer membership you can create your own web page (business profile) by simply filling in a form. We will guide you through the process of adding products, creating events, selling tickets or booking appointments. The exciting part is that you will never pay any extra fees apart from your yearly membership and no more waiting for web developers to edit anything on your page. You are in control, and can edit anything that changes on your profile very quickly.\n\nSo whether you have a small side-hustle or just need more traffic to your existing website, DigitalFlyer can assist. I will guide you through the process and support you with any questions you may have to get your profile up and running and your business connecting with more customers."
                 }
               </div>
             </div>
@@ -724,7 +724,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   style={{ fontWeight: 300 }}
                 >
                   {
-                    "Our seamless integration into Netcash eCommerce gatewat allows for easu payment with multiple payment options."
+                    "Our seamless integration into Netcash eCommerce gateway allows for easy payment with multiple payment options."
                   }
                 </span>
 
