@@ -53,8 +53,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__aVg72 {
-    width: 450px;
-    padding: 6px 0px 0px 20px;
+    width: 427px;
+    background: var(--token-G_Cicozef);
+    padding: 6px 0px 0px 1px;
   }
 }
 .freeBox__xJnqa {
@@ -845,11 +846,12 @@
     left: auto;
     top: auto;
     bottom: auto;
-    width: 400px;
+    width: 382px;
     height: 110px;
     padding-bottom: 9px;
     align-items: flex-end;
     justify-content: center;
+    padding-right: 0px;
     flex-shrink: 0;
   }
 }
@@ -1036,7 +1038,8 @@
   .freeBox__rpmyU {
     height: 57px;
     width: 450px;
-    background: var(--token-G_Cicozef);
+    background: linear-gradient(var(--token-G_Cicozef), var(--token-G_Cicozef)),
+      var(--token-G_Cicozef);
     flex-shrink: 0;
   }
 }
@@ -1269,6 +1272,9 @@
   .text__bzaCr {
     width: 395px;
     margin-top: 14px;
+    padding-left: 8px;
+    text-align: justify;
+    padding-right: 8px;
   }
 }
 .freeBox__ypZo2 {
@@ -1335,6 +1341,8 @@
     width: 395px;
     height: 104px;
     margin-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
     flex-shrink: 0;
   }
 }
@@ -1562,7 +1570,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wnkbk {
-    width: 450px;
+    width: 394px;
     height: 397px;
     flex-shrink: 0;
     padding: 12px 0px 18px;

@@ -761,16 +761,29 @@ function PlasmicHomepage__RenderFunc(props) {
                 sty.text__bzaCr
               )}
             >
-              <React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 300 }}
-                >
-                  {
-                    "Business webpage, eCommerce, appointment bookings and events module, all on one platform."
-                  }
-                </span>
-              </React.Fragment>
+              {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 300 }}
+                  >
+                    {
+                      "Business webpage, eCommerce, appointment bookings and events module, all on one platform."
+                    }
+                  </span>
+                </React.Fragment>
+              ) : (
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 300 }}
+                  >
+                    {
+                      "Business webpage, eCommerce, appointment bookings and events module, all on one platform."
+                    }
+                  </span>
+                </React.Fragment>
+              )}
             </div>
           </div>
 
