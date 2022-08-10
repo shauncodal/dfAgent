@@ -773,7 +773,7 @@
   width: 317px;
   height: 490px;
   margin-bottom: 0px;
-  margin-top: 334px;
+  margin-top: 324px;
   box-shadow: 0px 4px 54px 10px #0b072d;
   flex-shrink: 0;
   border-radius: 20px;
@@ -995,8 +995,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__svPZr {
-    width: 416px;
+    width: 100%;
     margin-top: calc(0px + 0px) !important;
+    min-width: 0;
   }
 }
 .freeBox___8GMIr {
@@ -1087,6 +1088,12 @@
   min-width: 0;
   padding: 8px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__wVtHa {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .freeBox__n4RKb {
   display: flex;
   position: relative;
@@ -1138,6 +1145,8 @@
   .freeBox__iCpfS {
     height: 166px;
     margin-top: calc(46px + 0px) !important;
+    width: 100%;
+    min-width: 0;
     flex-shrink: 0;
   }
 }
@@ -1201,6 +1210,8 @@
   .freeBox__evX9 {
     height: 120px;
     margin-top: calc(4px + 0px) !important;
+    width: 100%;
+    min-width: 0;
     flex-shrink: 0;
   }
 }
@@ -1255,6 +1266,12 @@
     var(--token-y3J6T7Zlc);
   flex-shrink: 0;
   padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__ypZo2 {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox__vHqRo {
   display: flex;
@@ -1374,9 +1391,10 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__loefm {
     margin-top: calc(52px + 0px) !important;
-    width: 415px;
+    width: 100%;
     height: 171px;
     padding-top: 0px;
+    min-width: 0;
     flex-shrink: 0;
   }
 }
@@ -1384,6 +1402,7 @@
   .freeBox__loefm > :global(.__wab_flex-container) {
     justify-content: flex-end;
     align-items: center;
+    min-width: 0;
   }
 }
 .text__ok4U {
@@ -1464,6 +1483,8 @@
   .freeBox__gmWom {
     height: 224px;
     margin-top: calc(74px + 0px) !important;
+    width: 100%;
+    min-width: 0;
     flex-shrink: 0;
   }
 }
