@@ -1018,7 +1018,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox___8GMIr {
     height: 64px;
-    width: 450px;
+    width: 386px;
     flex-shrink: 0;
   }
 }
@@ -1872,8 +1872,9 @@
     display: flex;
     flex-direction: column;
     max-width: 1794px;
-    width: 450px;
+    width: auto;
     background: var(--token-G_Cicozef);
+    height: auto;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
