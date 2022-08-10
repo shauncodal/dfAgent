@@ -681,84 +681,87 @@ function PlasmicHomepage__RenderFunc(props) {
             </div>
           ) : null}
 
-          <div className={classNames(projectcss.all, sty.freeBox___7WEz6)}>
+          <div className={classNames(projectcss.all, sty.freeBox__wVtHa)}>
+            <div className={classNames(projectcss.all, sty.freeBox__n4RKb)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__nybfh
+                )}
+              >
+                {"Saves Time"}
+              </div>
+            </div>
+
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__g2TT
+                sty.text___8MlYt
+              )}
+            >
+              {
+                " \nYou don't have to be a marketing guru to promote and sell your goods, services or products. We will show you how to use your unique business url to create posts on social media.\n"
+              }
+            </div>
+          </div>
+
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__iCpfS)}>
+              <div className={classNames(projectcss.all, sty.freeBox__klGrq)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__dYxNu
+                  )}
+                >
+                  {"Slick payment solution "}
+                </div>
+              </div>
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__c9Rta
+                )}
+              >
+                {
+                  " \nOur seamless integration into Netcash eCommerce gateway allows for easy payment with multiple payment options.\n"
+                }
+              </div>
+
+              {true ? (
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__z3Exd)}
+                />
+              ) : null}
+            </div>
+          ) : null}
+
+          <div className={classNames(projectcss.all, sty.freeBox__evX9)}>
+            <div className={classNames(projectcss.all, sty.freeBox__nzr3T)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__r2Ta1
+                )}
+              >
+                {"Additional Functionality \n \n"}
+              </div>
+            </div>
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__bzaCr
               )}
             >
               <React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
-                >
-                  {"Saves Time"}
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 300 }}
-                >
-                  {
-                    "You don't have to be a marketing guru to promote and sell your goods, services or products. We will show you how to use your unique business url to create posts on social media."
-                  }
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
-                >
-                  {"Slick payment solution"}
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 300 }}
-                >
-                  {
-                    "Our seamless integration into Netcash eCommerce gateway allows for easy payment with multiple payment options."
-                  }
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
-                >
-                  {"Saves money"}
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 300 }}
-                >
-                  {
-                    "Marketing and sales tools or services can be very expensive. A business membership is only R1199.00 per year, no other fees even when you sell products, services or tickets through our platform."
-                  }
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
-                >
-                  {"Additional Functionality"}
-                </span>
-
-                <React.Fragment>{"\n"}</React.Fragment>
-
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ fontWeight: 300 }}
@@ -767,14 +770,36 @@ function PlasmicHomepage__RenderFunc(props) {
                     "Business webpage, eCommerce, appointment bookings and events module, all on one platform."
                   }
                 </span>
+              </React.Fragment>
+            </div>
+          </div>
 
-                <React.Fragment>{"\n"}</React.Fragment>
+          <div className={classNames(projectcss.all, sty.freeBox__ypZo2)}>
+            <div className={classNames(projectcss.all, sty.freeBox__vHqRo)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__qiFlg
+                )}
+              >
+                {"Easy to use"}
+              </div>
+            </div>
 
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__iI9BC
+              )}
+            >
+              <React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ fontWeight: 700 }}
                 >
-                  {"Easy to use"}
+                  {" "}
                 </span>
 
                 <React.Fragment>{"\n"}</React.Fragment>
@@ -817,6 +842,27 @@ function PlasmicHomepage__RenderFunc(props) {
               </React.Fragment>
             </div>
           </div>
+
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox___7WEz6)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__g2TT
+                )}
+              >
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {""}
+                  </span>
+                </React.Fragment>
+              </div>
+            </div>
+          ) : null}
 
           <p.Stack
             as={"div"}
@@ -921,12 +967,12 @@ function PlasmicHomepage__RenderFunc(props) {
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__hrXe2)}
-                  displayHeight={"48px"}
+                  displayHeight={"50px"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"none"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"200px"}
+                  displayWidth={"220px"}
                   src={{
                     src: "/plasmic/ews_df_agent/images/netcashApprovedPartnerLogo1Png.png",
                     fullWidth: 701,
@@ -935,22 +981,26 @@ function PlasmicHomepage__RenderFunc(props) {
                   }}
                 />
 
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__mHxze)}
-                  displayHeight={"48px"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"200px"}
-                  src={{
-                    src: "/plasmic/ews_df_agent/images/coinPaymentsCoinPaymentsAnnouncesNewBrandingAsPartOf2020Jpg.jpeg",
-                    fullWidth: 2696,
-                    fullHeight: 1414,
-                    aspectRatio: undefined
-                  }}
-                />
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___2DD1L)}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__mHxze)}
+                    displayHeight={"48px"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"none"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"200px"}
+                    src={{
+                      src: "/plasmic/ews_df_agent/images/coinPaymentsCoinPaymentsAnnouncesNewBrandingAsPartOf2020Jpg.jpeg",
+                      fullWidth: 2696,
+                      fullHeight: 1414,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
               </p.Stack>
 
               <p.Stack
