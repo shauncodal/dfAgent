@@ -993,6 +993,12 @@
   padding: 0px 30px;
   border: 10px solid var(--token-G_Cicozef);
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__svPZr {
+    width: 416px;
+    margin-top: calc(0px + 0px) !important;
+  }
+}
 .freeBox___8GMIr {
   display: flex;
   position: relative;
