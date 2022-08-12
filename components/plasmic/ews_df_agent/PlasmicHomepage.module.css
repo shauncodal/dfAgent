@@ -1037,7 +1037,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__rpmyU {
     height: 57px;
-    width: 447px;
+    width: 420px;
     background: linear-gradient(var(--token-G_Cicozef), var(--token-G_Cicozef)),
       var(--token-G_Cicozef);
     flex-shrink: 0;
@@ -1103,6 +1103,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wVtHa {
     width: 450px;
+    max-width: 120%;
   }
 }
 .freeBox__n4RKb {
