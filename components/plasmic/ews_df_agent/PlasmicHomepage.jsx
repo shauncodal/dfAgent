@@ -893,33 +893,27 @@ function PlasmicHomepage__RenderFunc(props) {
                 : "For more information or to arrange a demonstration, please connect with me on WhatsApp or via email.\n \nOr register here:"}
             </div>
 
-            {(
-              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-            ) ? (
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__qswpg
-                )}
-                component={Link}
-                href={
-                  "https://www.digitalflyer.co.za/register/mFSiSXWEjjsWQsurG"
-                }
-                platform={"nextjs"}
-                target={"_blank"}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700 }}
-                  >
-                    {"         Register"}
-                  </span>
-                </React.Fragment>
-              </p.PlasmicLink>
-            ) : null}
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                sty.link__da2H
+              )}
+              component={Link}
+              href={"https://www.digitalflyer.co.za/register/mFSiSXWEjjsWQsurG"}
+              platform={"nextjs"}
+              target={"_blank"}
+            >
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Register"}
+                </span>
+              </React.Fragment>
+            </p.PlasmicLink>
           </p.Stack>
 
           <div className={classNames(projectcss.all, sty.freeBox__gmWom)}>
