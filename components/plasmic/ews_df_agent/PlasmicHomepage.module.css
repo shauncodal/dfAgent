@@ -1539,6 +1539,26 @@
   width: 1em;
   height: 1em;
 }
+.link__qswpg {
+  position: relative;
+  color: var(--token-Zt99Hl5OR);
+  background: var(--token-_s4N23lEN);
+  margin-top: calc(0px + 10px) !important;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 129px;
+  height: 45px;
+  align-self: center;
+  flex-shrink: 0;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__qswpg {
+    margin-top: calc(0px + 10px) !important;
+    display: block;
+  }
+}
 .freeBox__gmWom {
   display: flex;
   position: relative;
@@ -1923,7 +1943,7 @@
     width: 400px;
     background: var(--token-G_Cicozef);
     height: auto;
-    padding-right: 55px;
+    padding-right: 32px;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {

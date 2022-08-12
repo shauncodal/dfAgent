@@ -915,6 +915,27 @@ function PlasmicHomepage__RenderFunc(props) {
                 {"Register"}
               </div>
             </Button>
+
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__qswpg
+                )}
+                component={Link}
+                href={
+                  "https://www.digitalflyer.co.za/register/mFSiSXWEjjsWQsurG"
+                }
+                platform={"nextjs"}
+                target={"_blank"}
+              >
+                {"Register"}
+              </p.PlasmicLink>
+            ) : null}
           </p.Stack>
 
           <div className={classNames(projectcss.all, sty.freeBox__gmWom)}>
