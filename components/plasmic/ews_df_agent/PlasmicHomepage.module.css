@@ -1588,6 +1588,11 @@
     #eeeeee;
   padding: 0px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__jusCv {
+    width: 400px;
+  }
+}
 .freeBox__wnkbk {
   display: flex;
   flex-direction: column;
@@ -1602,10 +1607,10 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wnkbk {
-    width: 390px;
+    width: 398px;
     height: 397px;
     align-self: center;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-shrink: 0;
     padding: 12px 0px 18px;
