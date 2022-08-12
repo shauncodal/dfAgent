@@ -1923,6 +1923,7 @@
     width: 400px;
     background: var(--token-G_Cicozef);
     height: auto;
+    padding-right: 55px;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
