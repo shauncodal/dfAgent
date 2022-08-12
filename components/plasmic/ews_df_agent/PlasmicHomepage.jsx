@@ -19,7 +19,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import Button from "../../Button"; // plasmic-import: cfcHxjSbPUtDC/component
 import { useScreenVariants as useScreenVariantsx1UNqhXk2AoWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: x1UNqhXk2aoWg/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_ews_df_agent.module.css"; // plasmic-import: qxLLKwULJsF1RX2EtKrYht/projectcss
@@ -894,28 +893,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 : "For more information or to arrange a demonstration, please connect with me on WhatsApp or via email.\n \nOr register here:"}
             </div>
 
-            <Button
-              data-plasmic-name={"registration"}
-              data-plasmic-override={overrides.registration}
-              className={classNames("__wab_instance", sty.registration)}
-              color={"yellow"}
-              shape={
-                hasVariant(globalVariants, "screen", "mobileOnly")
-                  ? undefined
-                  : undefined
-              }
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__pfXPo
-                )}
-              >
-                {"Register"}
-              </div>
-            </Button>
-
             {(
               hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
             ) ? (
@@ -933,7 +910,14 @@ function PlasmicHomepage__RenderFunc(props) {
                 platform={"nextjs"}
                 target={"_blank"}
               >
-                {"Register"}
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {"         Register"}
+                  </span>
+                </React.Fragment>
               </p.PlasmicLink>
             ) : null}
           </p.Stack>
@@ -1579,12 +1563,11 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button", "foreground2", "h6", "span", "registration"],
+  root: ["root", "button", "foreground2", "h6", "span"],
   button: ["button"],
   foreground2: ["foreground2", "h6", "span"],
   h6: ["h6"],
-  span: ["span"],
-  registration: ["registration"]
+  span: ["span"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1625,7 +1608,6 @@ export const PlasmicHomepage = Object.assign(
     foreground2: makeNodeComponent("foreground2"),
     h6: makeNodeComponent("h6"),
     span: makeNodeComponent("span"),
-    registration: makeNodeComponent("registration"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps
