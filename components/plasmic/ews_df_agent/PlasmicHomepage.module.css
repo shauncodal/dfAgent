@@ -1099,9 +1099,8 @@
     font-size: 20px;
     padding-bottom: 13px;
     padding-top: 0px;
-    max-width: 396px;
-    width: 100%;
-    min-width: 0;
+    max-width: 400px;
+    width: 400px;
   }
 }
 .freeBox__wVtHa {
@@ -1121,7 +1120,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wVtHa {
     width: 400px;
-    max-width: 120%;
+    max-width: 100%;
   }
 }
 .freeBox__n4RKb {
@@ -1135,6 +1134,11 @@
   max-width: 100%;
   background: var(--token-o8tZkmelmCm_s8);
   padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__n4RKb {
+    width: 384px;
+  }
 }
 .text__nybfh {
   position: relative;
@@ -1153,7 +1157,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text___8MlYt {
-    width: 395px;
+    width: 400px;
     margin-top: 0px;
     padding-left: 8px;
     padding-right: 8px;
@@ -1197,7 +1201,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__klGrq {
-    width: 379px;
+    width: 384px;
   }
 }
 .text__dYxNu {
@@ -1213,11 +1217,10 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__c9Rta {
-    max-width: 395px;
-    width: 100%;
+    max-width: 400px;
+    width: 400px;
     padding-right: 8px;
     padding-left: 8px;
-    min-width: 0;
   }
 }
 .freeBox__z3Exd {
@@ -1250,7 +1253,7 @@
   .freeBox__evX9 {
     height: 120px;
     margin-top: calc(4px + 0px) !important;
-    width: 450px;
+    width: 400px;
     padding-right: 0px;
     padding-left: 0px;
     flex-shrink: 0;
@@ -1270,7 +1273,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__nzr3T {
-    width: 379px;
+    width: 384px;
   }
 }
 .text__r2Ta1 {
@@ -1295,7 +1298,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__bzaCr {
-    width: 395px;
+    width: 400px;
     margin-top: 14px;
     padding-left: 8px;
     text-align: justify;
@@ -1343,7 +1346,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__vHqRo {
-    width: 379px;
+    width: 384px;
   }
 }
 .text__qiFlg {
@@ -1363,7 +1366,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__iI9BC {
-    width: 395px;
+    width: 400px;
     height: 104px;
     margin-bottom: 0px;
     padding-left: 8px;
@@ -1449,7 +1452,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__loefm {
     margin-top: calc(52px + 0px) !important;
-    width: 450px;
+    width: 400px;
     height: 171px;
     padding-top: 0px;
     padding-left: 0px;
@@ -1478,7 +1481,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .text__ok4U {
     margin-top: calc(0px + 10px) !important;
-    width: 404px;
+    width: 400px;
     font-size: 18px;
     height: 68px;
     padding-bottom: 0px;
@@ -1541,7 +1544,7 @@
   .freeBox__gmWom {
     height: 224px;
     margin-top: calc(74px + 0px) !important;
-    width: 450px;
+    width: 400px;
     padding-right: 0px;
     padding-left: 0px;
     flex-shrink: 0;
@@ -1595,7 +1598,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wnkbk {
-    width: 394px;
+    width: 400px;
     height: 397px;
     flex-shrink: 0;
     padding: 12px 0px 18px;
@@ -1891,7 +1894,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1794px;
-    width: auto;
+    width: 400px;
     background: var(--token-G_Cicozef);
     height: auto;
   }
