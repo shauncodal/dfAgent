@@ -1137,8 +1137,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__n4RKb {
-    width: 380px;
-    max-width: 80%;
+    width: 320px;
   }
 }
 .text__nybfh {
@@ -1621,7 +1620,7 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    padding: 12px 20px 18px 0px;
+    padding: 12px 32px 18px 0px;
   }
 }
 .text__c8XxA {
