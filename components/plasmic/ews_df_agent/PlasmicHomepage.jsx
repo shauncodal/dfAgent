@@ -1114,9 +1114,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   <Button
                     className={classNames("__wab_instance", sty.button__z1IJj)}
                     color={"yellow"}
-                    link={
-                      "https://campaign.netcash.co.za/Default.aspx?act=g8NF2v1xDFuPtqib9+VhAzhMmDUtJeBN9KMqk6GqmC5doKB8AYaOaE9LgH65onb2Qm3y+ePm08V+NBrWVEFYkkP5iBH2viFm6UvHE8kw2gqXGe1yAAxMV9ltSDkDRq3cTmcUjHavu6HRIwvEUVLLt/CJCmCxsLLEloIdk7E2Rn5w2GRvu+0UNGRPPTI1If0zd8RS20EP5/yaHZoGxIdjV3KMF/xIqruOjNrtRSWW+wg="
-                    }
+                    link={""}
                   >
                     <div
                       className={classNames(
