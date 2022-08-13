@@ -19,6 +19,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: cfcHxjSbPUtDC/component
 import { useScreenVariants as useScreenVariantsx1UNqhXk2AoWg } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: x1UNqhXk2aoWg/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_ews_df_agent.module.css"; // plasmic-import: qxLLKwULJsF1RX2EtKrYht/projectcss
@@ -194,46 +195,51 @@ function PlasmicHomepage__RenderFunc(props) {
                         </p.Stack>
                       ) : null}
 
-                      <p.Stack
-                        as={p.PlasmicLink}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__gzg3C
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__kZzov
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
+                      {true ? (
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__gzg3C
+                          )}
+                          component={Link}
+                          platform={"nextjs"}
+                        >
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__kZzov
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
 
-                        {true ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__nooC3
-                            )}
-                          >
-                            {"Contact"}
-                          </div>
-                        ) : null}
+                          {true ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__nooC3
+                              )}
+                            >
+                              {"Contact"}
+                            </div>
+                          ) : null}
 
-                        {false ? (
-                          <IconIcon
-                            className={classNames(projectcss.all, sty.svg__iCb)}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </p.Stack>
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__iCb
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
 
                       {true ? (
                         <p.Stack
@@ -267,7 +273,7 @@ function PlasmicHomepage__RenderFunc(props) {
                             {"Company"}
                           </div>
 
-                          {false ? (
+                          {true ? (
                             <IconIcon
                               className={classNames(
                                 projectcss.all,
@@ -287,13 +293,11 @@ function PlasmicHomepage__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__jLmP)}
                   >
                     <button
-                      data-plasmic-name={"button"}
-                      data-plasmic-override={overrides.button}
                       className={classNames(
                         projectcss.all,
                         projectcss.button,
                         projectcss.__wab_text,
-                        sty.button
+                        sty.button__uoStj
                       )}
                     >
                       {"Sign up"}
@@ -1082,6 +1086,50 @@ function PlasmicHomepage__RenderFunc(props) {
                   </div>
                 ) : null}
               </p.Stack>
+
+              <div className={classNames(projectcss.all, sty.freeBox__o44Me)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__pCBnL
+                  )}
+                >
+                  {"Apply for your Netcash online payment gateway here: "}
+                </div>
+
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__mKlts
+                  )}
+                  component={Link}
+                  href={
+                    "https://campaign.netcash.co.za/Default.aspx?act=g8NF2v1xDFuPtqib9+VhAzhMmDUtJeBN9KMqk6GqmC5doKB8AYaOaE9LgH65onb2Qm3y+ePm08V+NBrWVEFYkkP5iBH2viFm6UvHE8kw2gqXGe1yAAxMV9ltSDkDRq3cTmcUjHavu6HRIwvEUVLLt/CJCmCxsLLEloIdk7E2Rn5w2GRvu+0UNGRPPTI1If0zd8RS20EP5/yaHZoGxIdjV3KMF/xIqruOjNrtRSWW+wg="
+                  }
+                  platform={"nextjs"}
+                  target={"_blank"}
+                >
+                  <Button
+                    className={classNames("__wab_instance", sty.button__z1IJj)}
+                    color={"yellow"}
+                    link={
+                      "https://campaign.netcash.co.za/Default.aspx?act=g8NF2v1xDFuPtqib9+VhAzhMmDUtJeBN9KMqk6GqmC5doKB8AYaOaE9LgH65onb2Qm3y+ePm08V+NBrWVEFYkkP5iBH2viFm6UvHE8kw2gqXGe1yAAxMV9ltSDkDRq3cTmcUjHavu6HRIwvEUVLLt/CJCmCxsLLEloIdk7E2Rn5w2GRvu+0UNGRPPTI1If0zd8RS20EP5/yaHZoGxIdjV3KMF/xIqruOjNrtRSWW+wg="
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__zuOr2
+                      )}
+                    >
+                      {"Register"}
+                    </div>
+                  </Button>
+                </p.PlasmicLink>
+              </div>
             </div>
           </div>
 
@@ -1557,8 +1605,7 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button", "foreground2", "h6", "span"],
-  button: ["button"],
+  root: ["root", "foreground2", "h6", "span"],
   foreground2: ["foreground2", "h6", "span"],
   h6: ["h6"],
   span: ["span"]
@@ -1598,7 +1645,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    button: makeNodeComponent("button"),
     foreground2: makeNodeComponent("foreground2"),
     h6: makeNodeComponent("h6"),
     span: makeNodeComponent("span"),
