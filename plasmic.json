@@ -273,6 +273,11 @@
           "id": "e5IcCX4P8",
           "name": "DF_Findandbefound1.png",
           "filePath": "../public/plasmic/ews_df_agent/images/dfFindandbefound1Png.png"
+        },
+        {
+          "id": "ynb9hmirJE",
+          "name": "Find-us-on-Facebook-logo.svg",
+          "filePath": "../public/plasmic/ews_df_agent/images/findUsOnFacebookLogosvg.svg"
         }
       ],
       "indirect": false,

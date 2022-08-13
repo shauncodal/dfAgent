@@ -1596,6 +1596,38 @@ function PlasmicHomepage__RenderFunc(props) {
                   </React.Fragment>
                 </div>
               ) : null}
+
+              <div className={classNames(projectcss.all, sty.freeBox__vavQg)}>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__vqbiU
+                  )}
+                  component={Link}
+                  href={"https://www.facebook.com/DigitalFlyerSA"}
+                  platform={"nextjs"}
+                  target={"_blank"}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___1Un2J)}
+                    displayHeight={"33px"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"147px"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/ews_df_agent/images/findUsOnFacebookLogosvg.svg",
+                      fullWidth: 300,
+                      fullHeight: 79,
+                      aspectRatio: 3.813841
+                    }}
+                  />
+                </p.PlasmicLink>
+              </div>
             </div>
           </div>
         </p.Stack>
